@@ -6,7 +6,7 @@ let unknownValue: unknown = 123
 let nothing: void = undefined
 let noValue: null = null
 let notDefined: undefined = undefined
-let impossible: never // kabhi value nahi hoti
+let impossible: never
 
 let person: object = { id: 1 }
 
