@@ -1,19 +1,19 @@
-let x: number = 10;
-if (true) {
-    let x: number = 20; // Block scope
-    console.log(x); // 20
-}
-console.log(x); // 10
+let name: string = "example"
+let age: number = 25
+let isActive: boolean = true
+let anything: any = "kuch bhi"
+let unknownValue: unknown = 123
+let nothing: void = undefined
+let noValue: null = null
+let notDefined: undefined = undefined
+let impossible: never // kabhi value nahi hoti
 
+let person: object = { id: 1 }
 
-let y: number = 30;
-if (true) {
-    let y: number = 40; // Block scope
-    console.log(y); // 40
-}
-console.log(y); // 30
+let marks: number[] = [10, 20, 30] // Array
+let tupleType: [string, number] = ["id", 1] // Tuple
 
+enum Colors { Red, Green, Blue } // Enum
 
-const z: number = 50;
-// z = 60; // Error: Assignment to constant variable
-console.log(z); // 50
+let bigCount: bigint = 100n
+let uniqueKey: symbol = Symbol("id")
